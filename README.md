@@ -1,7 +1,3 @@
-# Assignment 2 by Christopher Villegas
-
-Within this assignment various language models have been implemented including n-gram language modeling with additive smoothing and smoothing with linear interpolation.
-
 ## Usage
 For this program all that is required is invoking main.py using python3 and perplexity calculations will be completed accordingly.
 When invoking main.py you will be prompted to enter either (A) for additive smoothing or (L) for linear smoothing which will change how perplexity for Unigrams, Bigrams, and Trigrams is aquired.
