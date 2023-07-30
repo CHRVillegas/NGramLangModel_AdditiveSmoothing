@@ -1,9 +1,3 @@
-'''
-    Christopher Villegas
-    CSE 143 Assignment 2
-    May 18 2023
-'''
-
 import math
 if __name__ == "__main__":
     """
