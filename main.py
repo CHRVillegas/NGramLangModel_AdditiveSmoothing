@@ -7,7 +7,7 @@ if __name__ == "__main__":
         Breaks resulting sentences into smaller individual word tokens
     """
     def unigramData(wordCount, remWords):
-        train = open("A2-Data/1b_benchmark.train.tokens", "r", encoding="utf8")
+        train = open("Data/1b_benchmark.train.tokens", "r", encoding="utf8")
         for s in train:
             tokens = s.split()
             tokens.insert(0, "<start>")
@@ -289,11 +289,11 @@ if __name__ == "__main__":
     '''
     def getData(words, sentences, doc):
         if doc == "dev":
-            data = open("A2-Data/1b_benchmark.dev.tokens", "r", encoding="utf8")
+            data = open("Data/1b_benchmark.dev.tokens", "r", encoding="utf8")
         elif doc == "test":
-            data = open("A2-Data/1b_benchmark.test.tokens", "r", encoding="utf8")
+            data = open("Data/1b_benchmark.test.tokens", "r", encoding="utf8")
         else:
-            data = open("A2-Data/1b_benchmark.train.tokens", encoding="utf8")
+            data = open("Data/1b_benchmark.train.tokens", encoding="utf8")
 
         # for each sentence in data
         for s in data:
